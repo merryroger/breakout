@@ -1,0 +1,77 @@
+@media (max-width: 840px) {
+
+	body {
+		overflow-x: hidden;
+	}
+
+	main {
+		min-width: 480px;
+		background-color: #960546;
+	}
+
+	.breakout {
+		min-width: 480px;
+	}
+	
+	.ins__1 {
+		height: 300px;                                                                  
+	}
+
+}
+
+@media (min-width: 840px) {
+
+	body {
+		overflow-x: hidden;
+	}
+
+	main {
+		width: 840px;
+		background-color: #ffffff;
+	}
+
+	.ins__1 {
+		height: 420px;
+	}
+}
+
+@media (max-width: 460px) {
+
+	body {
+		overflow-x: auto;
+	}
+
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html, body {
+	height: 100%;
+	background-color: #cccccc;
+}
+
+main {
+	margin: 0 auto;
+	min-height: 100%;
+	display: block;
+}
+
+article {
+	padding: 50px 50pt;
+}
+
+.breakout {
+	margin: 20px 0;
+	position: relative;
+	width: 100vw;
+	left: 50%;
+	transform: translate(-50%);
+}
+
+.ins__1 {
+	background: #970329 url("./zr_bg.jpg") no-repeat center center;
+	background-size: cover;
+}
